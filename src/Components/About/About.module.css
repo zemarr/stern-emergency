@@ -1,0 +1,65 @@
+
+
+
+.headerimg {
+    height: 400px;
+    background-image: url('../../Image/HomeHeader.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8em;
+    position: relative;
+}
+
+.headerDetails {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    color: white;
+}
+
+.proffessionalImg {
+    width: 550px;
+}
+
+.proffessionalDetails {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.proffessionalDetails div h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.proffessionalDetails div p {
+    font-size: 1.5rem;
+    letter-spacing: -0.3px;
+    margin-bottom: 1em;
+}
+
+.proffessionalDetails div div a {
+    margin: .5em 0;
+}
+
+.proffessionalLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.proffessionalLinks a {
+    margin: .5em 0;
+    color: #8e8f90;
+    font-size: 0.96rem;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.proffessionalLinks a:hover {
+    text-decoration: none;
+    color: #ce1d0a;
+}

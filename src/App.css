@@ -1,22 +1,16 @@
-.App {
-  text-align: center;
+* {
+  font-size: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
+.logo {
+  width: 150px;
+  height: 150px;
+  background-image: url(https://i.ebayimg.com/images/g/AdwAAOSwPgxVL5C3/s-l640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.row {
+  padding: 1.5em 1em;
 }

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap');
+
+/* .logo {
+
+} */
+
+.navLinks {
+    color: #464646;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0;
+    -webkit-transition: ease-out .3s;
+    -moz-transition: ease-out .3s;
+    transition: ease-out .3s;
+    -ms-transition: ease-out .3s;
+    -o-transition: ease-out .3s;
+}
+
+.navLinks:hover {
+    text-decoration: none;
+    color: rgb(177, 0, 0);
+}
+
+.headerimg {
+    height: 450px;
+    background-image: url('../../Image/HomeHeader.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8em;
+    position: relative;
+}
+
+.headerDetails {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    color: white;
+}
+
+.welcomeImg {
+    background-image: url('../../Image/WorkImage.jpg');
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welHeading {
+    font-weight: 700;
+    font-size: 2.35rem;
+    margin-bottom: 2rem;
+}
+
+.welHeadingIntro {
+    font-size: 1.5rem;
+    letter-spacing: -0.3px;
+    margin-bottom: 1em;
+}
+
+.welInfo {
+    font-weight: 500;
+    color:gray;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.welImgSub {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.1px;
+    line-height: 1.2;
+    max-width: 35rem;
+    color: #8e8f90;
+}
+
+.workImg {
+    background-image: url('../../Image/WorkBgImage.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.workItems {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 13em 0;
+}
+
+.workBox {
+    width: 250px;
+    color: #fff;
+}
+
+.workIcon {
+    width: 80px;
+    height: 80px;
+    margin: 1.5em 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.workHeading {
+    color:#E9BB4D;
+    font-weight: 700;
+    margin-bottom: 0.7em;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.workHeading:hover {
+    color: #fff;
+}
+
+.workDetails {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.events {
+    padding: 8em 0;
+}
+
+.eventsHeader {
+    font-size: 2.1em;
+    font-weight: 700;
+    color: #353535;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.eventsImg {
+    width: 540px;
+    overflow: hidden;
+}
+
+.imageArrange1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.eventHeader {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 1em 0 0.7em 0;
+}
+
+.eventDetails {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #adadad;
+}
+
+.eventScheduleBtn {
+    padding: 1.5em 1.5em;
+    border-radius: 0;
+    margin: 4em 4em 0;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 2.5px;
+    border: none;
+    background-color: #ce1d0a;
+    color: white;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.eventScheduleBtn:hover {
+    background-color: #d2ba77;
+}
+
+.footer {
+    padding: 5em 0;
+    background-color: #222222;
+}
+
+.FooterLogo {
+    width: 250px;
+}
