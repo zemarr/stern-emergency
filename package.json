@@ -2,7 +2,7 @@
   "name": "stern-emergency",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zemarr.github.io/",
+  "homepage": "https://zemarr.github.io/stern-emergency/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
