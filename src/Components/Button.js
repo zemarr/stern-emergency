@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
-import hm from './Home/Home.module.css'
+import React, { Fragment } from 'react';
+import hm from './Home/Home.module.css';
+import { Link } from 'react-router-dom';
 
-class Button extends Component {
-    render() {
-        return (
-            <button className={hm.eventScheduleBtn}>{this.props.name}</button>
-        )
-    }
+
+const Button = (props) => {
+    return (
+        <Fragment>
+            <Link to={props.url}>
+                <button className={hm.eventScheduleBtn}>{props.name}</button>
+            </Link>
+        </Fragment>
+    )
 }
 
 export default Button;

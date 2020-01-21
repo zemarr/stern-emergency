@@ -9,7 +9,7 @@ const Navbar = () => {
         <Fragment>
             <Container>
                 <Nav style={{justifyContent: 'space-between', padding: '20px 10px'}}>
-                    <Link to='/'><img src={logo} alt='logo' width='70px' height='70px' /></Link>
+                    <Link to='/'><img src={logo} alt='Home' width='70px' height='70px' /></Link>
                     <NavLink to='/About' className={hm.navLinks}>ABOUT</NavLink>
                     <NavLink to='/FirePrevention' className={hm.navLinks}>FIRE PREVENTION</NavLink>
                     <NavLink to='/Events' className={hm.navLinks}>EVENTS</NavLink>
@@ -20,9 +20,5 @@ const Navbar = () => {
     )
 }
 
-// const Logo = (props) => {
-    
-//     return()
-// }
 
 export default Navbar

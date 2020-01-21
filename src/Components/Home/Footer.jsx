@@ -33,16 +33,16 @@ const FooterWelcome = () => {
 const RecentPosts = () => {
     return (
         <Fragment>
-            <div className={hm.FooterLogo}>
+            <div className={hm.FooterLogo} style={{paddingTop: '2.6em'}}>
                 <div>
                     <h4 style={{fontSize: '1.3rem'}}>Recent Posts</h4>
                 </div>
                 <div>
-                    <Link to="/">Emergency Medical Services Tips</Link>
+                    <Link to="/" className={hm.navLinks}>Emergency Medical Services Tips</Link>
                     <p style={{fontSize: '0.9rem'}}>Nov 14, 2019</p>
                 </div>
                 <div>
-                    <Link to="/">A New Truck Has Arrived</Link>
+                    <Link to="/" className={hm.navLinks}>A New Truck Has Arrived</Link>
                     <p style={{fontSize: '0.9rem'}}>Aug 25, 2019</p>
                 </div>
             </div>
@@ -53,21 +53,21 @@ const RecentPosts = () => {
 const OurServices = () => {
     return (
         <Fragment>
-            <div className={hm.FooterLogo}>
+            <div className={hm.FooterLogo} style={{paddingTop: '2.6em'}}>
                 <div>
-                    <h4>Our Services</h4>
+                    <h4 style={{fontSize: '1.3rem'}}>Our Services</h4>
                 </div>
-                <div>
-                    <Link to="/">Fire Fighting</Link>
+                <div style={{margin: '.5em 0'}} >
+                    <Link to="/" className={hm.navLinks}>Fire Fighting</Link>
                 </div>
-                <div>
-                    <Link to="/">Ambulance Services</Link>
+                <div style={{margin: '.5em 0'}} >
+                    <Link to="/" className={hm.navLinks}>Ambulance Services</Link>
                 </div>
-                <div>
-                    <Link to="/">Rescue Services</Link>
+                <div style={{margin: '.5em 0'}} >
+                    <Link to="/" className={hm.navLinks}>Rescue Services</Link>
                 </div>
-                <div>
-                    <Link to="/">Community Safety</Link>
+                <div style={{margin: '.5em 0'}} >
+                    <Link to="/" className={hm.navLinks}>Community Safety</Link>
                 </div>
             </div>
         </Fragment>
@@ -77,12 +77,12 @@ const OurServices = () => {
 const ContactUs = () => {
     return (
         <Fragment>
-            <div className={hm.FooterLogo}>
+            <div className={hm.FooterLogo} style={{paddingTop: '2.6em'}}>
                 <div>
                     <p>11559 Ventura Boulevard, Studio City, CA 91604</p>
                 </div>
                 <div>
-                    <Link tel='+2348057731698'>(805) 773-1698</Link>
+                    <Link tel='+2348057731698' className={hm.navLinks} style={{color: 'red'}}>(805) 773-1698</Link>
                 </div>
                 <div>
                     <p>Info@demolink.org</p>

@@ -15,7 +15,6 @@
     font-family: 'Noto Sans JP', sans-serif;
     position: absolute;
     color: white;
-    margin: 5em 7em;
 }
 
 .proffessionalImg {
@@ -63,4 +62,115 @@
 .proffessionalLinks a:hover {
     text-decoration: none;
     color: #ce1d0a;
+}
+
+.allWhatWeDo {
+    background-image: url('../../Image/WorkBgImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ServiceDisplays {
+    width: 250px;
+    height: 200px;
+}
+
+.ServiceDisplays h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #E9BB4D;
+    transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.ServiceDisplays h3:hover {
+    color: #fff;
+}
+
+.FireFightingImg {
+    display: inline-block;
+    background-image: url('../../Image/firefighting.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 0 5.8em .8em;
+}
+
+.AmbulanceImg {
+    display: inline-block;
+    background-image: url('../../Image/ambulanceservices.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 0 5.8em .8em;
+}
+
+.RescueImg {
+    display: inline-block;
+    background-image: url('../../Image/rescueservices.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 0 5.8em .8em;
+}
+
+.CommunityImg {
+    display: inline-block;
+    background-image: url('../../Image/communitysafety.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 0 5.8em .8em;
+}
+.SuppressionImg {
+    display: inline-block;
+    background-image: url('../../Image/firesuppression.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 0 5.8em .8em;
+}
+.MedicalImg {
+    display: inline-block;
+    background-image: url('../../Image/emergencymedical.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 0 5.8em .8em;
+}
+.InvestigateImg {
+    display: inline-block;
+    background-image: url('../../Image/fireinvestigation.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 0 5.8em .8em;
+}
+.TaskforceImg {
+    display: inline-block;
+    background-image: url('../../Image/specialoperationtaskforce.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 0 5.8em .8em;
 }

@@ -21,6 +21,10 @@
     color: rgb(177, 0, 0);
 }
 
+.navLinks:active {
+    color: #d90003;
+}
+
 .headerimg {
     height: 450px;
     background-image: url('../../Image/HomeHeader.jpg');
@@ -137,15 +141,16 @@
 }
 
 .eventsImg {
-    width: 540px;
+    width: 530px;
     overflow: hidden;
+    margin: 10px;
 }
 
 .imageArrange1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .eventHeader {
@@ -163,13 +168,14 @@
 .eventScheduleBtn {
     padding: 1.5em 1.5em;
     border-radius: 0;
-    margin: 4em 4em 0;
-    font-weight: 600;
+    margin: 0 4em 0;
+    font-weight: 700;
     font-size: 0.95rem;
     letter-spacing: 2.5px;
     border: none;
     background-color: #ce1d0a;
     color: white;
+    cursor: pointer;
     -webkit-transition: ease-in-out .3s;
     -moz-transition: ease-in-out .3s;
     transition: ease-in-out .3s;
@@ -188,4 +194,8 @@
 
 .FooterLogo {
     width: 250px;
+}
+
+Link:hover {
+    text-decoration: none;
 }

@@ -3,7 +3,7 @@ import Event1 from '../../Image/HomeEvents1.jpg'
 import Event2 from '../../Image/HomeEvents2.jpg'
 import { Container, Row } from 'react-bootstrap';
 import hm from './Home.module.css';
-import Button from '../Button.js'
+import Button from '../Button.js';
 
 const Home = () => {
     return (
@@ -35,7 +35,7 @@ const Header = () => {
     return (
         <Fragment>
             <div className={hm.headerimg}>
-                <Container className={hm.headerDetails} style={{margin: '9em 4em'}}>
+                <Container className={hm.headerDetails} style={{ margin: '9em 4em' }}>
                     <p style={{ fontSize: '.9rem', fontWeight: '400' }}>SAVE PEOPLE'S LIVES</p>
                     <h2 style={{ fontWeight: '600', fontSize: '4rem', marginBottom: '0.5em' }}>STERN Fire-Emergency and Rescue</h2>
                     <p style={{ fontSize: '1.2rem', fontWeight: '500' }}>Firefighters are essential to the safety and security of our local communities</p>
@@ -118,7 +118,7 @@ const CommunitySafety = () => {
     )
 }
 
-const UpcomingEvents = () => {
+export const UpcomingEvents = () => {
     return (
         <Fragment>
             <div className={hm.events}>
@@ -143,15 +143,13 @@ const UpcomingEvents = () => {
 
 const SeeEventButton = () => {
     return (
-        <ButtonContainer />
-    )
-}
+        <div style={{ margin: '4em auto 0px', width: '100%', justifyContent: 'center', display: 'flex' }}>
+            <Button
+                name='SEE EVENT SCHEDULE'
+                url='/EventSchedule'
+            />
 
-const ButtonContainer = (props) => {
-    return (
-        <div style={{  }}>
-            <Button name='SEE ALL EVENTS' />
-        </div>        
+        </div>
     )
 }
 

@@ -1,0 +1,66 @@
+
+
+
+.headerimg {
+    height: 400px;
+    background-image: url('../../Image/HomeHeader.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.headerDetails {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    color: white;
+}
+
+.Heading {
+    font-weight: 700;   
+    letter-spacing: -1px;       
+    font-size: 2rem;
+}
+
+.DetailsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4em 0 0;
+}
+
+.ImgContainer {
+    width: 520px;
+    margin: 1em 0;
+}
+
+.ImgContainer a {
+    color: red;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.ImgContainer a:hover {
+    text-decoration: none;
+    color: rgb(172, 0, 0);
+}
+
+.imgHeading {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1.5em;
+    margin-bottom: 0.4em;
+}
+
+.moreInfo {
+    margin-bottom: 2em;
+    font-weight: 600;
+    color: #bfbdbd;
+}
+
+/* Link:hover {
+    text-decoration: none;
+} */

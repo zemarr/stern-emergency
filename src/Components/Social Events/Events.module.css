@@ -1,0 +1,79 @@
+
+
+
+
+.headerimg {
+    height: 400px;
+    background-image: url('../../Image/HomeHeader.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.headerDetails {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    color: white;
+}
+
+.schedule {
+    
+}
+
+.eventwrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventmain {
+    max-width: 100%;
+    display: flex;
+    margin: 1em 0;
+    background-color: rgba(225, 225, 225, 0.18);
+}
+
+.eventdate {
+    margin: 3.5em 1em;
+    text-align: center;    
+    padding: 2em;    
+    background-color: #fff;
+    border: solid .3px #80808014; 
+    border-radius: 15px;
+}
+
+.eventdate h3 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.eventdate p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+}
+
+.cardInfo {
+    margin: 4em;
+}
+
+.cardInfo h3 {
+    font-weight: 700;
+}
+
+.time {
+    font-size: .9em;
+}
+
+.catgry {
+    font-weight: 700;
+    color: #ea7901;
+}
+
+.contnt {
+    font-weight: 600;
+}
