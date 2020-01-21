@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/stern-emergency/static/css/main.046e996d.chunk.css",
+    "main.js": "/stern-emergency/static/js/main.39d45904.chunk.js",
+    "main.js.map": "/stern-emergency/static/js/main.39d45904.chunk.js.map",
+    "runtime-main.js": "/stern-emergency/static/js/runtime-main.7cc637cb.js",
+    "runtime-main.js.map": "/stern-emergency/static/js/runtime-main.7cc637cb.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/stern-emergency/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.f55ae48c.chunk.js": "/stern-emergency/static/js/2.f55ae48c.chunk.js",
+    "static/js/2.f55ae48c.chunk.js.map": "/stern-emergency/static/js/2.f55ae48c.chunk.js.map",
+    "index.html": "/stern-emergency/index.html",
+    "precache-manifest.1ed9c65a7794057af38333a63e0f11fc.js": "/stern-emergency/precache-manifest.1ed9c65a7794057af38333a63e0f11fc.js",
+    "service-worker.js": "/stern-emergency/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/stern-emergency/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.046e996d.chunk.css.map": "/stern-emergency/static/css/main.046e996d.chunk.css.map",
+    "static/media/HomeEvents1.jpg": "/stern-emergency/static/media/HomeEvents1.a99f1f46.jpg",
+    "static/media/HomeEvents2.jpg": "/stern-emergency/static/media/HomeEvents2.77de15f8.jpg",
+    "static/media/Events.module.css": "/stern-emergency/static/media/HomeHeader.d16ab001.jpg",
+    "static/media/About.module.css": "/stern-emergency/static/media/WorkBgImage.331b99f3.jpg",
+    "static/media/Home.module.css": "/stern-emergency/static/media/WorkImage.6ac12488.jpg",
+    "static/media/five.jpg": "/stern-emergency/static/media/five.8fc1ba2b.jpg",
+    "static/media/four.jpg": "/stern-emergency/static/media/four.fda969a8.jpg",
+    "static/media/logo.png": "/stern-emergency/static/media/logo.80486f16.png",
+    "static/media/one.jpg": "/stern-emergency/static/media/one.1f1fdbed.jpg",
+    "static/media/proffessionalStandard.jpg": "/stern-emergency/static/media/proffessionalStandard.be452f5f.jpg",
+    "static/media/six.jpg": "/stern-emergency/static/media/six.cab24120.jpg",
+    "static/media/three.jpg": "/stern-emergency/static/media/three.564328b9.jpg",
+    "static/media/two.jpg": "/stern-emergency/static/media/two.f74319f8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cc637cb.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.f55ae48c.chunk.js",
+    "static/css/main.046e996d.chunk.css",
+    "static/js/main.39d45904.chunk.js"
+  ]
+}
